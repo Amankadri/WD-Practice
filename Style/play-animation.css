@@ -1,0 +1,81 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+
+
+.bg
+{
+    height: 500px;
+    width: 700px;
+    background: url(https://radiustheme.com/demo/wordpress/themes/neeon/wp-content/uploads/2022/08/movie_07-960x520.jpg);
+    background-size: 100% 100%;
+    margin: 100px auto;
+    position: relative;
+    background-position: center;
+    transition: 1s;
+   
+}
+
+.bg:hover
+{
+    background-size: 120% 120%;
+}
+
+.animation
+{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* padding: 23px 25px; */
+    animation: test1 1.5s infinite;
+
+}
+
+
+
+.play
+{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 23px 25px;
+    /* animation: test 1s infinite; */
+}
+.play:hover
+{
+    background-color: blue;
+    color: white;
+}
+
+.fa-play
+{
+    height: 50px;
+    width: 50px;
+   font-size: 28px;
+   /* position: absolute;
+   top: 30%;
+   left: 40%; */
+   z-index: -1;
+}
+
+@keyframes test
+{
+    from{transform: scale(1); opacity: 1;}
+    to{transform: scale(1.5); opacity: 0;}
+}
+@keyframes test1
+{
+    from{transform: scale(1); opacity: 1;}
+    to{transform: scale(1.8); opacity: 0;}
+}

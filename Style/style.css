@@ -1,0 +1,33 @@
+.x
+{
+    font-size: 100px;
+    height: 500px;
+    background: url(https://i.pinimg.com/originals/4d/58/63/4d58637d83ea07686d64bd69fcca4918.jpg);
+    background-size: 100% 100%;
+    color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+     background-attachment: fixed;
+}
+
+.h1
+{
+    text-shadow: 3px 3px 3px red; font-size: 100%;    
+
+}
+h2
+{
+    text-shadow: -4px -4px 3px green;
+
+}
+h3
+{
+    text-shadow: 3px 3px 4px yellowgreen, -3px -3px 4px yellow; font-size: 100%;
+}
+.p
+{
+    text-orientation: sideways-right;writing-mode: vertical-lr;
+}
+p{
+    text-indent: 200px; text-transform: uppercase; word-spacing: 5px; line-height: 50px; letter-spacing: 1px;
+}
