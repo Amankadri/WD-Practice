@@ -1,0 +1,23 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main
+{
+        
+    /* width: 500px; */
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 30fr 60fr 10fr 20fr;
+    grid-template-rows: 90px 40px 20px;    
+}
+
+.main .x
+{
+    /* height: 300px;
+    width: 25%; */
+    border: 2px solid;
+}

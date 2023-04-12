@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        .row
+        {
+            background-color: crimson;
+            display: grid;
+            grid-template-columns: 40fr 60fr;
+            grid-template-rows: 100px 100px;
+        }
+        .col
+        {
+            border: 2px solid;
+            
+        }
+        .x
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px;
+
+        }
+        .x .nestedcol
+        {
+            border: 2px solid blueviolet;
+        }
+        .y
+        {
+            display: grid ;
+            /* grid-template-columns: 1fr 1fr; */
+            /* grid-template-rows: 50px; */
+
+        }
+
+        .y .nestedrow
+        {
+            border: 2px solid burlywood ;
+        }
+    
+    </style>
+</head>
+<body>
+    
+       <div class="row">
+        <div class="col x">
+            <div class="nestedcol"><img src="batman.webp" alt="" height="100%" width="100%"></div>
+            <div class="nestedcol y">
+                <div class="nestedrow">row1</div>
+                <div class="nestedrow"><img src="batman.webp" alt="" height="20px" width="100%"></div>
+                <div class="nestedrow">row3</div>
+            </div>
+            <div class="nestedcol">col2</div>
+        </div>
+        <div class="col">col2</div>
+        <div class="col">col3</div>
+        <div class="col">col4</div>
+       </div>
+    
+</body>
+</html>
